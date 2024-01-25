@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#container {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  padding: 1rem;
+  margin: 1rem;
+  border-right: 1px dashed black;
+}
+
+#svgContainer {
+  position: absolute;
+  top: 245px;
+  left: 245px;
+  width: 275px;
+  height: 275px;
+  z-index: 2;
+  border: 1px solid red;
+}
+#headerText {
+  border: 1px solid blue;
+}
+#flyer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+  z-index: 1;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.text-input label {
+  padding-bottom: 5px;
+}
+
+.text-input input {
+  padding: 10px;
+  width: 600px;
+}
