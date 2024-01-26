@@ -10,11 +10,11 @@ body {
 
 #container {
   position: relative;
-  width: 800px;
-  height: 800px;
+  width: 805px;
+  height: 805px;
   padding: 1rem;
   margin: 1rem;
-  border-right: 1px dashed black;
+  border: 2px dashed black;
 }
 
 #svgContainer {
@@ -24,6 +24,7 @@ body {
   width: 275px;
   height: 275px;
   z-index: 2;
+  /* border: 1px dashed black; */
 }
 
 #flyer {
